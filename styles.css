@@ -1,4 +1,10 @@
+#compareCard {
+    width: 500px;
+    height: 600px;
+    background: tan;
+    margin: 100px auto;
+}
 
-.output {
-    background: aquamarine;
+body {
+    background: gray;
 }

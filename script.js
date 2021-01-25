@@ -4,7 +4,7 @@ function shotsToKill() {
     var weaponDamage = document.getElementById("damage").value;
     var playerHealth = document.getElementById("health").value;
     shots = Math.ceil(playerHealth / weaponDamage);
-    document.getElementById("output").innerHTML = shots + " shots to kill";
+    document.getElementById("output").innerHTML = shots + " shots";
 }
 
 function ttk() {
