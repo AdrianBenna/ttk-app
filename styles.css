@@ -1,10 +1,23 @@
 #compareCard {
-    width: 500px;
-    height: 600px;
-    background: tan;
+    width: 400px;
+    height: 300px;
+    background: #2c3f52;
     margin: 100px auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 50px;
 }
 
 body {
-    background: gray;
+    background: #0f1923;
+    color: white;
+}
+
+.button {
+    background: #ff4655;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.output {
+    color: white;
 }
