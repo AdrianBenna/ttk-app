@@ -5,19 +5,56 @@
     margin: 100px auto;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     padding: 50px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 50px auto;
 }
 
 body {
     background: #0f1923;
     color: white;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .button {
     background: #ff4655;
     color: white;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+    border-radius: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    border-color: transparent;
+    
 }
 
 .output {
     color: white;
 }
+
+#compareOne {
+    
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  input {
+      background-color: rgb(66, 66, 66);
+      border-radius: 4px;
+      color: white;
+      font-family: 'Rajdhani', sans-serif;
+      border-color: transparent;
+  }
